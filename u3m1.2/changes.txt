@@ -1,0 +1,18 @@
+*.u3m:
+    added:
+        - bending to physics (cantilever for horizontal and inclined surface)
+        - stretch to physics
+        - angle_measurement
+        - force_measurement
+        - friction to physics
+
+    changed:
+        - thickness is now required for physics
+        - weight is now required for physics
+        - weight got modified to include the geometry of the sample
+        - removed optional_mass_per_area_measurement object
+
+*.u3ma:
+    added:
+
+won't do:

@@ -1,0 +1,15 @@
+- weight: is sample shape important?
+    was just the final value, but is now distinguished between circular or rectangular sample - could this be changed back to the old behaviour
+- bending: do inclined contact surface tests produce contact distance values?
+    is now ommited, but wanted to check back
+- stretch: what do negative force values mean?
+    Raw Fabric measurements JSON.docx states "odd values represent the force; the positive value is utilized for the force extending a specimen", so what do negative values mean?
+- what are possible directions?
+    only warp, weft and bias (for stretch) or are there other possibilities (e.g. for non-fabrics)
+- how to handle multiple measurements in the same direction?
+- is a measurement in each direction required?
+- value ranges for all these measurements
+- is support for attaching proprietary raw measurement files required?
+- currently all values are required, do there exist any meaningful measurements where some values can be undefined
+- how is friction measured?
+- Raw Fabric measurements JSON.docx (3.3 Bending) says bending angle can be computed, but (5.2 Bending data compatibility) says, that it can't be computed for CLO3D
